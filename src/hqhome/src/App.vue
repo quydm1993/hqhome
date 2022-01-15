@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <h2>Test deploy App</h2>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav>
+        <router-link to='/'>Overview</router-link>
+        <router-link to='/model-listing'>Model Listing</router-link>
+    </nav>
+    <router-view />
   </div>
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
   export default {
     name: 'app',
     components: {
-      HelloWorld
     }
   }
 </script>
