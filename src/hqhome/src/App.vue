@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h2>Vuebnb Listings</h2>
+    <h2>Test deploy App</h2>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
